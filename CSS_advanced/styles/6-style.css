@@ -9,7 +9,7 @@ a {
     color: var(--color-black);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
-    font: var(--font-weight-regular;
+    font-weight: var(--font-weight-regular;
 }
 
 /* Hide visually-hidden elements */
@@ -51,5 +51,5 @@ a {
 /* Set font for all heading levels */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
-  font: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
 }
