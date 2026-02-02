@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body and Anchor color */
+body,
+a {
+    color: var(--color-black);
+}
+
+/* Hide visually-hidden elements */
+.visually-hidden {
+    display: none;
+}
+
+/* Card category and Section tagline color */
+.card-category, 
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Define custom properties in the root element */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
