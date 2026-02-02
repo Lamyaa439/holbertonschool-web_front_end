@@ -6,7 +6,7 @@ html {
 body,
 a {
     color: var(--color-black);
-    --font-family: var(--font-family-base);
+    font-family: var(--font-family-base);
 }
 
 /* Hide visually-hidden elements */
