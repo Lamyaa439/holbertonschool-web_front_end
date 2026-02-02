@@ -11,23 +11,23 @@ a {
 }
 
 a[href] {
-  color: var(--text-color);
-  text-decoration: none;
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 /* Visited state */
 a[href]:visited {
-  font-style: italic;
+    font-style: italic;
 }
 
 /* Hover state */
 a[href]:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* Active state */
 a[href]:active {
-  background-color: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
 
 /* Hide visually-hidden elements */
