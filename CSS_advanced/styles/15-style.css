@@ -349,10 +349,11 @@ template {
 }
 /* Universal box sizing rule */
 *,
-*::before
+*::before,
 *::after {
     box-sizing: border-box;
 }
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
