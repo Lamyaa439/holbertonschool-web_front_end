@@ -5,23 +5,23 @@ html {
 
 /* Body and Anchor color */
 body,
-a {
+a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
 
 /* Visited state */
-a:visited {
+a[herf]:visited {
     font-style: italic;
 }
 
 /* Hover state */
-a:hover {
+a[href]:hover {
     text-decoration: underline;
 }
 
 /* Active state */
-a:active {
+a[herf]:active {
     background-color: var(--color-light-grey);
 }
 
