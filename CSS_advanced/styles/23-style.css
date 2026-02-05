@@ -397,6 +397,7 @@ a:active {
     margin: var(--section-title-margin);
     color: var(--section-title-color);
 }
+
 /* Card category and Section tagline color */
 .section-tagline {
     color: var(--color-primary);
@@ -452,7 +453,7 @@ a:active {
     --section-title-color: var(--color-black);
 
     /* ... existing variables ... */
-     --section-padding: 5rem 0;
+    --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
