@@ -512,7 +512,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Nav list styling */
-nav {
+.nav {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -520,7 +520,7 @@ nav {
 }
 
 /* Nav Item styling */
-nav .nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -529,11 +529,11 @@ nav .nav-item {
   margin: var(--nav-item-margin);
 }
 
-nav .nav-link {
+.nav .nav-link {
   display: block;
   padding: 0.5rem 1rem;
 }
 
-nav .nav-link:hover {
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
