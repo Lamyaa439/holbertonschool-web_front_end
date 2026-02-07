@@ -570,7 +570,7 @@ ul.row {
 /* Grid System - Columns */
 [class*='col-'] {
     float: left;
-    padding: 0.5rem; /* Half of root element (10px * 0.5) */
+    padding: 0.5rem;
 }
 
 .col-1-3 {
@@ -603,3 +603,4 @@ ul.row {
 .social-link svg {
     fill: var(--text-color);
 }
+
